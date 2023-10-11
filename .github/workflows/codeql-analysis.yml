@@ -2,9 +2,7 @@ name: "Code scanning - action"
 
 on:
   push:
-    branches: [ main, master, release ]
-  schedule:
-    - cron: '0 5 * * *'
+    branches: [ v8.4.0_release ]
 
 permissions:
   contents: read
